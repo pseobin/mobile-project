@@ -58,22 +58,18 @@ function Main() {
                 <div data-aos="fade-down" className="product_top">
                 <h3>PRODUCT</h3>
                 <p>해태제과의 다양한 제품들의 상세 내용을 보실 수 있습니다.</p>
-                <a href='#' className="more">more</a>
+                <a href='/product' className="more">more</a>
                 </div>
-            </div>
-
-            <div className="search">
-                <form method="post">
-                <label className="hidden" htmlFor="search_text">검색어 입력</label>
-                <input type="text" id="search_text" name="search_text" />
-                <input className="btn" type="submit" value="검색" />
-                </form>
             </div>
             <div data-aos="fade-up" class="pro_img">
             <Swiper
                 spaceBetween={0} 
-                slidesPerView={3.5} 
+                slidesPerView={2.5} 
                 loop={true} 
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    }}
                 className="mySwiper1" >
              <ul>
                  <SwiperSlide><li><img src={getImgUrl('/images','product1')} alt=""/></li></SwiperSlide>
@@ -96,7 +92,7 @@ function Main() {
                     <div data-aos="fade-down" className="character_top">
                     <h3>CHARACTER</h3>
                     <p>해태제과의 사랑스러운 캐릭터들를 소개합니다!</p>
-                    <a href='#' className="more">more</a>
+                    <a href='/character' className="more">more</a>
                     </div>
                 </div>
                 <div className="swiper">
@@ -121,7 +117,7 @@ function Main() {
             <section className='about'>
             <div data-aos="fade-down" className="about_top">
                 <h3>ABOUT</h3>
-                <a href='#' className="more">more</a>
+                <a href='/about' className="more">more</a>
                 <p>해태제과는 고객만족을 모든 가치판단의 기준으로 삼아 최고의 제품과 서비스를 제공하여 모든 법규의 준수와 
                   사회적 책임을 다하여 국민의 풍요로운 삶과 사회발전에 공헌합니다.</p>
                   <img src={getImgUrl('/images','about')} alt=""/>
