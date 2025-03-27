@@ -18,7 +18,7 @@ function Main() {
     SwiperCore.use([Pagination, Autoplay]);
 
     return (
-        <>
+        <div className='index'>
           <div className='visual'>
                 <Swiper
                 spaceBetween={0} 
@@ -153,7 +153,7 @@ function Main() {
               </div>
             </section>
 
-        </> 
+        </div> 
     );
   }
 

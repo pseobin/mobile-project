@@ -28,7 +28,7 @@ img{border: 0; vertical-align: top}
   'GRAD' 0,
   'opsz' 24}
 
-  
+  .index{overflow: auto;}
 /* main의 비주얼처리-swiper  */
 .visual{height:auto; position: relative;}
 .swiper-container {height: 100%;width: 100%;}
