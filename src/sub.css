@@ -28,19 +28,18 @@
 
 
 /* character */
-.character_sub{width: 95%; margin: 100px auto;}
+.character_sub{width: 98%; margin: 100px auto;}
 .character_sub .character_top{text-align: center;}
 .character_sub .character_top h2{font-size: 1.5rem; font-weight: 900; padding: 0px 0 30px 0;}
 .character_sub .character_top p{font-size: .9rem; margin-bottom: 15px;}
 
-.character_sub .character_con ul li p{ background: #FEF4F6; 
-    padding: 15px; font-size: .8rem; border-radius: 10px; font-weight: 500;}
+.character_sub .character_con ul li p{ background: #FEF4F6; text-align: justify;
+    padding: 15px; font-size: .8rem; border-radius: 20px; font-weight: 500;}
 .character_sub .character_con ul li p strong{display: block; font-size: 1.3rem; color: #EC2B84; padding: 5px 0;}
 .character_sub .character_con ul{width: 100%; margin: 60px auto; overflow: hidden;
     display: grid; 
     place-items: center;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
     grid-template-areas:
         'a b'
         'd c'
